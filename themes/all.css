@@ -1,0 +1,163 @@
+/*
+ * Clean theme for ResponsiveSlides.js
+ *
+ * @since 1.0.0
+ *
+ */
+div.sz_slider_wrapper.clean {
+	position:relative;
+}
+div.sz_slider_wrapper.clean p.caption {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	padding:10px;
+	box-sizing:border-box;
+	background-color:rgba(0,0,0,0.8);
+	margin:0;
+	color:#ffffff;
+}
+div.sz_slider_wrapper.clean a.prev,
+div.sz_slider_wrapper.clean a.next {
+	display:block;
+	position:absolute;
+	top:50%;
+	width:40px;
+	height:60px;
+	background-color:rgba(0,0,0,0.5);
+	z-index:99;
+	margin-top:-30px;
+	text-align:center;
+}
+div.sz_slider_wrapper.clean a.prev:before,
+div.sz_slider_wrapper.clean a.next:before {
+	color:rgba(255,255,255,0.8);
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	font: normal 28px/60px 'dashicons';
+}
+div.sz_slider_wrapper.clean a.prev:hover,
+div.sz_slider_wrapper.clean a.next:hover {
+	background-color:rgba(0,0,0,0.85);
+}
+div.sz_slider_wrapper.clean a.prev {
+	left:0px;
+}
+div.sz_slider_wrapper.clean a.prev:before {
+	content: "\f341";
+}
+div.sz_slider_wrapper.clean a.next {
+	right:0px;
+}
+div.sz_slider_wrapper.clean a.next:before {
+	content: "\f345";
+}
+div.sz_slider_wrapper.clean ul.rslides_tabs {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	text-align:center;
+	z-index:99;
+	margin-bottom:10px;
+}
+div.sz_slider_wrapper.clean.has_captions ul.rslides_tabs {
+	top:0;
+	bottom:auto;
+	text-align:right;
+	margin:5px 3px 0 0;
+}
+div.sz_slider_wrapper.clean ul.rslides_tabs li {
+	display:inline-block;
+	width:36px;
+	height:36px;
+	background-color:rgba(0,0,0,0.35);
+	margin:0 2px;
+	line-height:36px;
+	text-align:center;
+}
+div.sz_slider_wrapper.clean ul.rslides_tabs li:hover,
+div.sz_slider_wrapper.clean ul.rslides_tabs li.rslides_here {
+	background-color:rgba(0,0,0,0.85);
+}
+div.sz_slider_wrapper.clean ul.rslides_tabs li a {
+	color:rgba(255,255,255,0.8);
+	display:block;
+	text-decoration:none;
+}
+div.sz_slider_wrapper.clean ul.rslides_tabs li a:hover {
+	text-decoration:none;
+}
+/*
+ * CleanInvert theme for ResponsiveSlides.js
+ *
+ * @since 1.0.0
+ *
+ */
+div.sz_slider_wrapper.clean-invert {
+	position:relative;
+}
+div.sz_slider_wrapper.clean-invert a.prev,
+div.sz_slider_wrapper.clean-invert a.next {
+	display:block;
+	position:absolute;
+	top:50%;
+	width:40px;
+	height:60px;
+	background-color:rgba(255,255,255,0.5);
+	z-index:99;
+	margin-top:-30px;
+	text-align:center;
+}
+div.sz_slider_wrapper.clean-invert a.prev:before,
+div.sz_slider_wrapper.clean-invert a.next:before {
+	color:rgba(0,0,0,0.8);
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	font: normal 28px/60px 'dashicons';
+}
+div.sz_slider_wrapper.clean-invert a.prev:hover,
+div.sz_slider_wrapper.clean-invert a.next:hover {
+	background-color:rgba(255,255,255,0.85);
+}
+div.sz_slider_wrapper.clean-invert a.prev {
+	left:0px;
+}
+div.sz_slider_wrapper.clean-invert a.prev:before {
+	content: "\f341";
+}
+div.sz_slider_wrapper.clean-invert a.next {
+	right:0px;
+}
+div.sz_slider_wrapper.clean-invert a.next:before {
+	content: "\f345";
+}
+div.sz_slider_wrapper.clean-invert ul.rslides_tabs {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	text-align:center;
+	z-index:99;
+	margin-bottom:10px;
+}
+div.sz_slider_wrapper.clean-invert ul.rslides_tabs li {
+	display:inline-block;
+	width:36px;
+	height:36px;
+	background-color:rgba(255,255,255,0.35);
+	margin:0 2px;
+	line-height:36px;
+}
+div.sz_slider_wrapper.clean-invert ul.rslides_tabs li:hover,
+div.sz_slider_wrapper.clean-invert ul.rslides_tabs li.rslides_here {
+	background-color:rgba(255,255,255,0.85);
+}
+div.sz_slider_wrapper.clean-invert ul.rslides_tabs li a {
+	color:rgba(0,0,0,0.8);
+	display:block;
+	text-decoration:none;
+}
+div.sz_slider_wrapper.clean-invert ul.rslides_tabs li a:hover {
+	text-decoration:none;
+}
